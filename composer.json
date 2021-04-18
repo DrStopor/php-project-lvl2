@@ -1,0 +1,31 @@
+{
+    "name": "hexlet/code",
+    "description": "Study project lvl 2",
+    "authors": [
+        {
+            "name": "Dmitry",
+            "email": "drstopor@gmail.com"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        },
+        "files": [
+            "src/Cli.php"
+        ]
+    },
+    "bin": [
+        "bin/gendiff"
+    ],
+    "scripts": {
+        "phpcs": "phpcs"
+    }
+}
