@@ -9,26 +9,24 @@
     ],
     "require": {
         "docopt/docopt": "^1.0",
-        "funct/funct": "^1.5",
-        "symfony/yaml": "^4.3"
+        "lstrojny/functional-php": "^1.17",
+        "symfony/yaml": "^5.2"
     }
     ,
     "require-dev": {
         "roave/security-advisories": "dev-latest",
-        "phpunit/phpunit": "^8.3"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
-        "psr-4": {
-            "App\\": "src/",
-            "App\\Tests\\": "tests/"
-        },
         "files": [
-            "src/genDiff.php",
-            "src/parsers.php",
-            "src/astBuilder.php",
-            "src/formatters/plain.php",
-            "src/formatters/pretty.php",
-            "src/formatters/json.php"
+            "src/Differ.php",
+            "src/FileReader.php",
+            "src/Parsers.php",
+            "src/DiffTreeBuilder.php",
+            "src/Formatters.php",
+            "src/Formatters/Plain.php",
+            "src/Formatters/Stylish.php",
+            "src/Formatters/Json.php"
         ]
     },
     "bin": [
@@ -36,7 +34,6 @@
     ],
     "scripts": {
         "phpcs": "phpcs",
-        "phpunit": "phpunit",
         "test": "phpunit tests"
     }
 }
