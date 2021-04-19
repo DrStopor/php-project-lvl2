@@ -2,6 +2,9 @@
 
 namespace Differ\FileReader;
 
+/**
+ * @throws \Exception
+ */
 function readFile(string $filePath): array
 {
     // проверка существования файла:

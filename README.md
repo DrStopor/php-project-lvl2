@@ -16,11 +16,11 @@
 
 Generate diff of two JSON-files:
 
-
+[![asciicast](https://asciinema.org/a/Ezwj1t77V8aoHYwA1u7lfD1gu.svg)](https://asciinema.org/a/Ezwj1t77V8aoHYwA1u7lfD1gu)
 
 Generate diff of two YAML-files:
 
-
+[![asciicast](https://asciinema.org/a/408556.svg)](https://asciinema.org/a/408556)
 
 Generate diff of two complex JSON/YAML-files:
 
