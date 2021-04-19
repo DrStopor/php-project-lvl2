@@ -1,0 +1,1 @@
+[{"type":"not changed","key":"host","value":"hexlet.io"},{"type":"changed","key":"timeout","oldValue":50,"newValue":20},{"type":"deleted","key":"proxy","value":"123.456.78.90"},{"type":"added","key":"verbose","value":true}]
